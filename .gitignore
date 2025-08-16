@@ -6,6 +6,8 @@ vendor/
 
 # Ignore environment files
 .env
+/src/.env
+
 
 # Ignore logs and caches
 *.log
@@ -15,6 +17,11 @@ bootstrap/cache/
 # Ignore IDE/editor settings
 .vscode/
 .idea/
+/vendor/
+/node_modules/
+/.env
+*.log
+.DS_Store
 
 # Ignore Docker artifacts
 *.pid
